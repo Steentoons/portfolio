@@ -8,6 +8,7 @@ import Skill from "./components/Skill";
 import jsImg from "./assets/images/skills/js-img.png"
 import reactImg from "./assets/images/skills/react-img.png"
 import cssImg from "./assets/images/skills/css-img.png"
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Skill isButton={false} img={reactImg}  />
       <Portfolio />
       <Skill isButton={true} img={cssImg} content="DOWNLOAD CV"  />
+      <Testimonial />
+      <Skill isButton={false} img={cssImg}  />
     </div>
   );
 }
