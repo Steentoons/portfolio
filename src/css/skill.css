@@ -1,0 +1,55 @@
+.skill-container {
+    width: 100%;
+    position: relative;
+}
+
+.skill-container img {
+    z-index: +3;
+    position: absolute;
+    margin-right: 50px;
+}
+
+.skill-button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: solid #FF652F 4px;
+    height: 0;
+}
+
+.skill-img-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 0;
+}
+
+.skill-container button {
+    background: #0E0E0E;
+    border: 23px solid #FF652F;
+    color: #FF652F;
+    cursor: pointer;
+    padding: 20px 63px;
+    margin-right: 50px;
+    /* margin-top: px; */
+}
+
+@media screen and (max-width: 1018px) {
+    .skill-container img {
+        /* margin-bottom: -180px; */
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .skill-container img {
+        display: none;
+    }
+    .skill-button-wrapper {
+        justify-content: center;
+    }
+    .skill-container button {
+        margin-right: 0;
+    }
+}

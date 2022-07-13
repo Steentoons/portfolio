@@ -5,7 +5,7 @@ import closeIcon from "../assets/icons/close.png"
 const Portfolio = () => {
   return (
     <>
-    <div className="portfolio-overlay-container">
+    {/* <div className="portfolio-overlay-container">
         <div className="portfolio-overlay-wrapper">
           <div className="portfolio-overlay-icon">
             <img src={closeIcon} alt="close button" />
@@ -42,7 +42,7 @@ const Portfolio = () => {
         </ul>
       </div>
         </div>
-      </div>
+      </div> */}
 
     <div className="portfolio-container">
 
