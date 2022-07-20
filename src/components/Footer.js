@@ -8,7 +8,7 @@ import socialsImg5 from "../assets/images/socials/frontend mentor.png";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div id="contacts" className="footer-container">
       <img
         onClick={() => {
           window.open("mailto:kirumbaaugustinewambugu@gmail.com?subject=subject&body=body");

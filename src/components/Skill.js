@@ -13,7 +13,7 @@ const Skill = (props) => {
             <img src={props.img} alt="skills" />
         </div>
     )
-  return (
+  return ( 
     <div className='skill-container'>
         {skillEl}
     </div>

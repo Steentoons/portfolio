@@ -20,6 +20,36 @@ const Header = () => {
   const openNavMenu = () => {
     setIsNavOpen(!isNavOpen);
   };
+
+  const homeHandler = () => {
+    const el = document.getElementById("heroesSection")
+
+    el.scrollIntoView({behavior: "smooth"})
+  } 
+
+  const contactsHandler = () => {
+    const el = document.getElementById("contacts")
+
+    el.scrollIntoView({behavior: "smooth"})
+  } 
+
+  const testimonialHandler = () => {
+    const el = document.getElementById("testimonial")
+
+    el.scrollIntoView({behavior: "smooth"})
+  } 
+
+  const portfolioHandler = () => {
+    const el = document.getElementById("portfolio")
+
+    el.scrollIntoView({behavior: "smooth"})
+  } 
+
+  const aboutHandler = () => {
+    const el = document.getElementById("about")
+
+    el.scrollIntoView({behavior: "smooth"})
+  } 
   
   return (
     <div className="header-container">
@@ -35,15 +65,15 @@ const Header = () => {
             />
           </div>
           <div className="header-menu-content-wrapper" style={headerMenuState}>
-            <div className="header-menu-content-div header-menu-home ">Ho</div>
-            <div className="header-menu-content-div header-menu-about">Ab</div>
-            <div className="header-menu-content-div header-menu-portfolio">
+            <div onClick={() => {homeHandler()}} className="header-menu-content-div header-menu-home ">Ho</div>
+            <div onClick={() => {aboutHandler()}} className="header-menu-content-div header-menu-about">Ab</div>
+            <div onClick={() => {portfolioHandler()}} className="header-menu-content-div header-menu-portfolio">
               Po
             </div>
-            <div className="header-menu-content-div header-menu-testimonials">
+            <div onClick={() => {testimonialHandler()}} className="header-menu-content-div header-menu-testimonials">
               Te
             </div>
-            <div className="header-menu-content-div header-menu-home">Co</div>
+            <div onClick={() => {contactsHandler()}} className="header-menu-content-div header-menu-home">Co</div>
           </div>
         </div>
       </div>

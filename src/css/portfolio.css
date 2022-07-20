@@ -21,10 +21,8 @@
 
 .portfolio-overlay-icon {
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
     padding-top: 50px;
-    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .portfolio-overlay-icon img {

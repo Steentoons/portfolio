@@ -5,7 +5,7 @@ import avatarImg2 from "../assets/images/avatars/brian ngetich.png"
 
 const Testimonial = () => {
   return (
-    <div className="testimonial-container">
+    <div id="testimonial" className="testimonial-container">
       <div className="testimonial-title">TESTIMONIALS</div>
       <div className="testimonial-wrapper">
         <div className="testimonial-div">

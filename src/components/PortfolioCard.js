@@ -6,8 +6,15 @@ const PortfolioCard = (props) => {
         backgroundImage: `url(${props.img})`
 
     };
+
+    const portfolioHandler = () => {
+      console.log("index is " + props.portfolioKey)
+      props.setCurrentIdx(props.portfolioKey)
+      props.setPortfolioView(true)
+    }
+
   return (
-    <div className="portfolio-div">
+    <div className="portfolio-div" onClick={() => {portfolioHandler()}}>
       <div className="portfolio-div-shadow"></div>
       <div className="portfolio-div-img">
         <div

@@ -4,7 +4,7 @@ import SteenToonsImg from "../assets/images/steen toons.png";
 
 const HeroesSection = () => {
   return (
-    <div className="heroes-section-container">
+    <div id="heroesSection" className="heroes-section-container">
       <div className="heroes-section-img-wrapper">
         <img src={SteenToonsImg} alt="Steen toons" />
       </div>
