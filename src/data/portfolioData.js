@@ -24,7 +24,7 @@ export const portfolio = [{
     {
         img: projectIMG3,
         title: "SHORTEN URLS",
-        desc: `A solution to the advanced Frontend Mentor challenge needed a user to play a game versus a computer showing scores and game results. You can see the game is responsive across multiple device screens, done with a mobile-first approach. I used React Js and CSS to handle UI and React Redux to do state changes. I also used Redux-Persist to persist state on reload and Lodash Throttle to manage function calls. I employed Vanilla Js to do the computer moves plus the logic to calculate the results and determine the winner.  `,
+        desc: `The Front-end Mentor challenge was to take long URLs from different sites as inputs and convert them to shortened URLs with the help of the shortcode API. I was to handle the errors that may arise from invalid form inputs to bad API calls. The user was also to see all the previously shortened URL lists and able to copy them with one click. An optimal layout for different screens from desktops to mobile was mandatory.  `,
         liveSite: "https://steentoons.github.io/easybank_solution/",
         repo: "https://github.com/Steentoons/easybank_solution",
         frontendMentor: "http://",
