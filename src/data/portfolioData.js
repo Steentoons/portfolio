@@ -8,7 +8,7 @@ export const portfolio = [{
         desc: `This is an advanced challenge from Frontend Mentor where I was to integrate with Rest Country API to pull country data and display them as per the provided design. The user could search for countries, filter countries by region, see individual countries, and optionally change the site to dark or light mode.  
 
         I used React Js, CSS, and Axios to fetch the data and complete the rest of the challenge. I learned a few things from the project that included better handling async functions, persisting states using functional components, and an effective way to switch dark mode from the user's system preference.`,
-        liveSite: "http://",
+        liveSite: "https://country-rest-neon.vercel.app/view-country",
         repo: "https://github.com/Steentoons/Countries-REST",
         frontendMentor: "http://",
     },
@@ -25,7 +25,7 @@ export const portfolio = [{
         img: projectIMG3,
         title: "SHORTEN URLS",
         desc: `The Front-end Mentor challenge was to take long URLs from different sites as inputs and convert them to shortened URLs with the help of the shortcode API. I was to handle the errors that may arise from invalid form inputs to bad API calls. The user was also to see all the previously shortened URL lists and able to copy them with one click. An optimal layout for different screens from desktops to mobile was mandatory.  `,
-        liveSite: "https://steentoons.github.io/easybank_solution/",
+        liveSite: "https://url-shortening-api-sable.vercel.app/",
         repo: "https://github.com/Steentoons/easybank_solution",
         frontendMentor: "http://",
     },
