@@ -167,3 +167,11 @@
         margin-top: 40px;
     }
 }
+
+@media screen and (max-width: 545px) {
+    .portfolio-title {
+        font-size: 40px;
+        line-height: 20px;
+        margin-left: -40px;
+    }
+}

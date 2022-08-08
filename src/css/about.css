@@ -63,3 +63,11 @@
         padding: 140px 30px;
     }
 }
+
+@media screen and (max-width: 412px) {
+    .about-title,
+    .about-title span {
+        font-size: 48px;
+        line-height: 44px;
+    }
+}
